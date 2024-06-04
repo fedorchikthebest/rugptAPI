@@ -1,6 +1,6 @@
 FROM python:3.12
 
-COPY requirements.txt requirements.txt
+COPY . .
 
 RUN python -m venv venv
 RUN venv/bin/pip install -r requirements.txt
